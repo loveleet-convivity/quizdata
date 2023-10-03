@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  experimental: {
+    urlImports: ["https://unpkg.com/mathlive"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
